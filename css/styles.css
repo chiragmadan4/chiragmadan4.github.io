@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #545454;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, p, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    width: 7%;
+    border: none;
+    margin: 0 auto;
+    border-top: 8px #ccc dotted;
+}
+
+/* ############## COMMON STYLES ################## */
+
+.div_content {
+    width: 90%;
+    /* background-color: darkgray; */
+    text-align: center;
+    padding: 5px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+
+.section_heading {
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+/* ############## HEADER ################## */
+
+.div_head {
+    background-image: url(../images/background-small.jpg);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+}
+
+.div_head h1 {
+    line-height: 200%;
+}
+
+/* ############## NAV BAR ################## */
+
+.div_head .nav_bar {
+    height: 56px;
+    width: 100%;
+    /* background-color: lightgrey; */
+    /* box-sizing: border-box; */
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.scrolled {
+    background-color: black;
+    transition: background-color 300ms linear;
+}
+
+.hidden {
+    visibility: hidden;
+    transition: background-color 400ms linear;
+}
+
+.div_head .nav_bar ul {
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.div_head .nav_bar li {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    /* padding: 18px; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.div_head .nav_bar li:hover {
+    border-bottom: 3px cornsilk solid;
+    transition: border-bottom 100ms linear;
+}
+
+.div_head .nav_bar a {
+    color: cornsilk;
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+#main_heading {
+    /* font-size: 2.5em; */
+}
+
+.div_head .content {
+    padding-top: 150px;
+    text-align: center;
+    color: cornsilk;
+    letter-spacing: 0.2em;
+    /* backdrop-filter: blur(8px); */
+}
+
+.div_head .content h3 {
+    margin-top: 100px;
+}
+.div_head .content button {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 100px 0 200px 0;
+    letter-spacing: 0.1em;
+    background-color: crimson;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 30px;
+    color: cornsilk;
+}
+
+.div_head .content button:hover {
+    /* background-color: red; */
+    animation-name: shadowEffect;
+    animation-duration: 200ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+/* ############## MIDDLE ################## */
+
+.container1 {
+    width: 90%;
+}
+
+.container1 img {
+    width: 80%;
+}
+
+.container1 h3 {
+    margin-top: 5px;
+    /* margin-bottom: 100px; */
+    font-size: 28px;
+    letter-spacing: 0.1em;
+}
+
+.container2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container2 li {
+    margin: 100px 5px;
+}
+
+.container2 li:first-child {
+    margin-top: 30px;
+}
+
+.container2 li:last-child {
+    margin-bottom: 30px;
+}
+
+.box p {
+    line-height: 180%;
+    font-size: 18px;
+}
+
+.icon {
+    width: 20%;
+}
+
+
+/* ############## WORK ################## */
+
+.work_box {
+    /* border: 3px black solid; */
+    padding: 20px 0;
+    margin: 0 auto 50px auto;
+    width: 90%;
+    box-shadow: 0px 0px 10px 0.5px #ccc;
+}
+
+.work_box h3,h2,h4 {
+    letter-spacing: 0.1em;
+    padding: 10px;
+}
+
+.work_box hr {
+    width: 100%;
+    border: 0.5px #ccc solid;
+}
+
+.work_box p {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0.1em;
+}
+
+.work_box h4 {
+    color: #393e46;
+}
+
+/* ############## CONTACT ################## */
+
+.div_contact {
+    text-align: center;
+    margin-top: 150px;
+    background-color: gainsboro;
+    width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+.div_contact ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.div_contact li {
+    display: inline-block;
+    padding: 30px;
+}
+
+form input, textarea {
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+}
+
+form input {
+    font-size: 18px;
+    text-align: center;
+}
+
+.span1,.span2,.span3 {
+    opacity: 0;
+}
+
+.span1 {
+    animation-name: show;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+.span2 {
+    animation-name: show;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+.span3 {
+    animation-name: show;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+
+
+@keyframes shadowEffect {
+    from {box-shadow: 0 0 15px 0px #ddd;}
+    /* 50% {box-shadow: 0 0 15px 2px #ddd;}  */
+    to {box-shadow: 0 0 15px 5px #ddd;}
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+ 
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
