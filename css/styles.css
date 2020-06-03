@@ -23,6 +23,7 @@ hr {
 
 .div_content {
     width: 90%;
+    max-width: 600px;
     /* background-color: darkgray; */
     text-align: center;
     padding: 5px;
