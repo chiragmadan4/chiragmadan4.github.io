@@ -236,6 +236,11 @@ hr {
     padding: 30px;
 }
 
+.div_contact h3 {
+    position: relative;
+    top: 40px;
+}
+
 form input, textarea {
     display: block;
     margin: 10px auto;
