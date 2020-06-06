@@ -41,8 +41,8 @@ hr {
 /* ############## HEADER ################## */
 
 .div_head {
-    background-image: url(../images/background-small.jpg);
-    background-size: 100% 900px;
+    background-image: url(../images/background-head.jpg);
+    background-size: 100% 700px;
     background-repeat: no-repeat;
 }
 
@@ -107,7 +107,8 @@ hr {
 }
 
 #main_heading {
-    font-size: 2.7em;
+    /* font-size: 2.7em; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .div_head .content {
@@ -124,7 +125,7 @@ hr {
 .div_head .content button {
     font-size: 20px;
     font-weight: bold;
-    margin: 80px 0 150px 0;
+    margin: 120px 0 100px 0;
     letter-spacing: 0.1em;
     background-color: crimson;
     border: none;
