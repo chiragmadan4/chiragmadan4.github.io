@@ -125,7 +125,7 @@ hr {
 .div_head .content button {
     font-size: 20px;
     font-weight: bold;
-    margin: 120px 0 100px 0;
+    margin: 70px 0 140px 0;
     letter-spacing: 0.1em;
     background-color: crimson;
     border: none;
@@ -155,7 +155,10 @@ hr {
 .container1 h3 {
     margin-top: 5px;
     /* margin-bottom: 100px; */
-    font-size: 28px;
+    font-size: 24px;
+    text-transform: none;
+    font-family: Helvetica, sans-serif;
+    line-height: 140%;
     letter-spacing: 0.1em;
 }
 
