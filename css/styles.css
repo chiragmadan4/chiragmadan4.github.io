@@ -27,14 +27,14 @@ hr {
     /* background-color: darkgray; */
     text-align: center;
     padding: 5px;
-    margin: 100px auto;
+    margin: 50px auto;
     box-sizing: border-box;
 }
 
 .section_heading {
     text-align: center;
     letter-spacing: 0.2em;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-transform: uppercase;
 }
 
@@ -42,7 +42,7 @@ hr {
 
 .div_head {
     background-image: url(../images/background-small.jpg);
-    background-size: 100% 800px;
+    background-size: 100% 900px;
     background-repeat: no-repeat;
 }
 
@@ -107,11 +107,11 @@ hr {
 }
 
 #main_heading {
-    /* font-size: 2.5em; */
+    font-size: 2.7em;
 }
 
 .div_head .content {
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     color: cornsilk;
     letter-spacing: 0.2em;
@@ -124,7 +124,7 @@ hr {
 .div_head .content button {
     font-size: 20px;
     font-weight: bold;
-    margin: 100px 0 200px 0;
+    margin: 80px 0 150px 0;
     letter-spacing: 0.1em;
     background-color: crimson;
     border: none;
@@ -164,7 +164,7 @@ hr {
 }
 
 .container2 li {
-    margin: 100px 5px;
+    margin: 80px 5px;
 }
 
 .container2 li:first-child {
@@ -189,15 +189,15 @@ hr {
 
 .work_box {
     /* border: 3px black solid; */
-    padding: 20px 0;
-    margin: 0 auto 50px auto;
+    padding: 10px 0;
+    margin: 0 auto 30px auto;
     width: 90%;
     box-shadow: 0px 0px 10px 0.5px #ccc;
 }
 
 .work_box h3,h2,h4 {
     letter-spacing: 0.1em;
-    padding: 10px;
+    padding: 0px;
 }
 
 .work_box hr {
@@ -208,7 +208,7 @@ hr {
 .work_box p {
     padding: 20px;
     font-size: 18px;
-    line-height: 180%;
+    line-height: 160%;
     letter-spacing: 0.1em;
 }
 
@@ -220,7 +220,7 @@ hr {
 
 .div_contact {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: gainsboro;
     width: 100%;
     padding: 100px 0 50px 0;
@@ -238,7 +238,7 @@ hr {
 
 .div_contact h3 {
     position: relative;
-    top: 40px;
+    top: 50px;
 }
 
 form input, textarea {
