@@ -227,7 +227,7 @@ hr {
     margin-top: 100px;
     background-color: gainsboro;
     width: 100%;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 5px 0;
 }
 
 .div_contact ul {
@@ -301,3 +301,59 @@ form input {
 /* 
 font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
+
+
+/* ############## ANIMATIONS ################## */
+#heart {
+    display: inline-block;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    background-color: purple;
+    transform: rotate(-45deg) scale(1);
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#heart::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    border-radius: 50%;
+    height: inherit;
+    width: inherit;
+    background-color: inherit;
+}
+
+#heart::before {
+    position: absolute;
+    content: '';
+    top: -50%;
+    left: 0;
+    border-radius: 50%;
+    height: inherit;
+    width: inherit;
+    background-color: inherit;
+}
+
+#MadeBy {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#MadeBy h4 {
+    display: inline-block;
+}
+
+@keyframes pulse {
+    from{
+        transform: rotate(-45deg) scale(1.1);
+    }
+    to {
+        transform: rotate(-45deg) scale(0.9);
+    }
+}
