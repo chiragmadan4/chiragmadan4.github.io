@@ -14,10 +14,6 @@ window.onscroll = function() {
     }
 }
 
-document.querySelector("#start_btn").onclick = function() {
-    document.querySelector("#about").scrollIntoView({behavior: "smooth"});
-}
-
 document.querySelector("#about_btn").onclick = function() {
     document.querySelector("#about").scrollIntoView({behavior: "smooth"});
 }
