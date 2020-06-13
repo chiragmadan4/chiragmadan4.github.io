@@ -2,7 +2,7 @@
 window.onscroll = function() {
     var x = window.scrollY;
     var nav = document.querySelector(".nav_bar");
-    if (x > 100 && x < 780) {
+    if (x > 100 && x < 750) {
         nav.classList.add("hidden");
     } else {
         nav.classList.remove("hidden");
