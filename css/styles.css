@@ -43,7 +43,7 @@ hr {
 /* ############## HEADER ################## */
 
 .div_head {
-    /* background-image: url(../images/bg-new2-compressed.jpg); */
+    background-image: url(../images/bg-new2-compressed.jpg);
     background-color: #000000;
     background-size: cover;
     height: 100%;
