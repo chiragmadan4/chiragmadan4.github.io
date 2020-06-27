@@ -43,14 +43,14 @@ hr {
 /* ############## HEADER ################## */
 
 .div_head {
-    background-image: url(../images/bg-new.jpg);
-    background-color: #393e46;
+    /* background-image: url(../images/bg-new2-compressed.jpg); */
+    background-color: #000000;
     background-size: cover;
-    /* width: 100%; */
     height: 100%;
     margin-bottom: 50px;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
 .div_head h1 {
@@ -115,22 +115,25 @@ hr {
 }
 
 #main_heading {
-    /* font-size: 2.7em; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 2.7em;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
 }
 
-.div_head .content {
+.div_head .main {
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+    /* background-color: #1b1919; */
+    /* box-shadow: 0 0px 10px 2px #ccc; */
+    z-index: 2;
     box-sizing: border-box;
-    height: 100%;
-    padding-top: 200px;
+    width: 80%;
     text-align: center;
     color: cornsilk;
     letter-spacing: 0.2em;
+    display: inline-block;
     /* backdrop-filter: blur(8px); */
-}
-
-.div_head .content h3 {
-    margin-top: 100px;
 }
 
 /* ############## MIDDLE ################## */
@@ -349,3 +352,15 @@ font-family: 'Raleway', sans-serif; */
 .social_logo:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+/*
+pallete
+#e7dfd5
+#84a9ac
+#3b6978
+#204051
+*/
